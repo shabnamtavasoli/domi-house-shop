@@ -1,16 +1,44 @@
-# React + Vite
+# 🏡 فروشگاه اینترنتی دامی هاوس (Domi House)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="public/images/hero-bg.jpg" alt="Domi House Banner" width="100%" style="border-radius: 8px;">
+</p>
 
-Currently, two official plugins are available:
+یک وب‌سایت فروشگاهی مدرن، مینیمال و واکنشی (Responsive) جهت عرضه لوازم خانگی، مبلمان و دکوراسیون منزل با تم رنگی گرم و نود (Warm Nude & Beige).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **[مشاهده دمو و لینک زنده پروژه‌ (Live Demo)](https://shabnamtavasoli.github.io/domi-house-shop/)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ ویژگی‌های کلیدی (Key Features)
 
-## Expanding the ESLint configuration
+* **🎨 طراحی مدرن و مینیمال:** رابط کاربری (UI) شیک، ساده و متناسب با ترندهای روز دکوراسیون داخلی.
+* **📱 کاملاً واکنش‌گرا (Responsive Design):** تجربه کاربری بهینه‌شده برای موبایل، تبلت و دسکتاپ به همراه **Mobile Bottom Navigation**.
+* **🛒 سبد خرید پیشرفته (Cart Drawer):** مدیریت هوشمند سبد خرید با React Context (افزودن، حذف، تغییر تعداد و محاسبه قیمت کل).
+* **🔍 فیلتر و دسته‌بندی هوشمند:** امکان مشاهده محصولات بر اساس دسته‌بندی‌های مختلف (کالای خواب، مبلمان، روشنایی، لوازم برقی و...).
+* **🔀 تنوع محصول (Product Variants):** پشتیبانی از انتخاب رنگ، سایز و متریال‌های مختلف برای هر محصول.
+* **📝 مجله و بلاگ دامی هاوس:** بخش مقالات دکوراسیون و چیدمان مینیمال با جزئیات کامل.
+* **🔑 احراز هویت (Auth Modal):** مودال مدرن ورود و ثبت‌نام کاربران.
+* **⚡ عملکرد و سرعت بالا:** بیلد و بارگذاری سریع به لطف Vite و React 19.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ تکنولوژی‌های استفاده‌شده (Tech Stack)
+
+* **Core:** React 19, Vite
+* **Styling:** Tailwind CSS v4
+* **Routing:** React Router DOM (HashRouter)
+* **Icons:** Lucide React
+* **State Management:** React Context API
+* **Deployment:** GitHub Pages (`gh-pages`)
+
+---
+
+## 🚀 راهنمای نصب و اجرای محلی (Getting Started)
+
+برای اجرای این پروژه روی سیستم خود مراحل زیر را دنبال کنید:
+
+### ۱. کلون کردن مخزن (Clone repository)
+```bash
+git clone [https://github.com/shabnamtavasoli/domi-house-shop.git](https://github.com/shabnamtavasoli/domi-house-shop.git)
+cd domi-house-shop
